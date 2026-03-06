@@ -17,8 +17,9 @@ public class Main{
          * 
          * 
         */
-        
-
+        MusicBox mbox2 = new MusicBox("A12345", 'N', "Sunshine", "Sunny Band",
+         "Bright Skies", "Pop", "Sun Records", "Sunny Tunes");
+        playsong.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
     }
 }
 
